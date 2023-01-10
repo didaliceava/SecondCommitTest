@@ -6,11 +6,6 @@ public class Casting {
 		static 	short myShort=1245;
 		static 	int intoInt;
 	    static	long intoLong;
-			
-		
-		
-	
-		
 
 	   public static void main(String[] args) {
 

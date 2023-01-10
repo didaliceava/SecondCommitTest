@@ -1,7 +1,7 @@
 package FirstPack;
 
 public class variables {
-    int x=10; //instance variable/when static is added it becomes static
+    int x=10; //instance variable=global variables /when static is added it becomes static
 
     public static void main(String[] args) {
         System.out.println();

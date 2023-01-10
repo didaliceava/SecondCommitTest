@@ -5,7 +5,7 @@ public class Immutability {
 	public static void main(String[] args) {
 		 
 		   String name ="dida";                   //String pool reserve one memory place for both name and otherstudent name because the value is the same "dida"
-		   String otherStudentName= "dida";     //Strings are immutable /not changebale because their place holder in the memory is unchengable but the variable can be changed
+		   String otherStudentName= "dida";     //Strings are immutable /not changeable because their place holder in the memory is unchengable but the variable can be changed
 		
 	
 		

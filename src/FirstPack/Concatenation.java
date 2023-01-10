@@ -24,6 +24,13 @@ static String word2= "java";
 
         System.out.println(quote);
 
+        int a=10;
+        int b=100;
+        int c=100;
+
+
+        System.out.println("\t" + a+"\n"+b+ "\t\t" + c);  //This will print three numbers forming a triangle
+
 
 
 
