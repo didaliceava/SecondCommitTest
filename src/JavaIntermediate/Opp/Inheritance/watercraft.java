@@ -1,4 +1,8 @@
 package JavaIntermediate.Opp.Inheritance;
 
-public class motorCycle  {
+public class watercraft  {
+
+
+
+
 }

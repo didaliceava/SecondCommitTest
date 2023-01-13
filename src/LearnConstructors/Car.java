@@ -7,6 +7,14 @@ public class Car { //Constructor is implicit even if we did not explicitly defin
     /* a class is a bleu print of real word objects
     classes have states(attributes), behaviours (functions)
      */
+    public static String TypeOfCar="SUV";       //Static member of a class belong to the class / see TestConstructors
+    public static int x=10;
+
+    String make="";                                           //instance variables,attribute of the class, instance because they belong to each(instance
+    String model;                                          // ,example or OBJECT of the class , every obj created will have access to these variables
+    int year;
+
+
 
        Car(String ma ,String md ,int yr){                       // user defined constructor , means java gives the user power to control constructing the objects of the class
            this.make=ma;
@@ -20,14 +28,6 @@ public class Car { //Constructor is implicit even if we did not explicitly defin
         this.year=yr;
     }
 
-
-
-
-    String make="";                                           //instance variables,attribute of the class, instance because they belong to each(instance
-    String model;                                          // ,example or OBJECT of the class , every obj created will have access to these variables
-    int year;
-   public static String TypeOfCar="SUV";  //Static member of a class belong to the class / see TestConstructors
-   public static int x=10;
 
    void accelerate() {
       System.out.println("accelerate");

@@ -4,19 +4,24 @@ public class Vehicle {   //This is the superClass
 
 
     String typeOfVehicle;
-    String typeOfEngine;
     String color;
-    String manufacturer;
-    String model;
+    String Model;
+
+    public Vehicle(String typeOfVehicle, String model, String color) {
+        this.typeOfVehicle = typeOfVehicle;
+        this.Model = model;
+        this.color = color;
+
+    }
 
     public void accelerate(){
-        System.out.println(typeOfVehicle+" is accelerating");
+        System.out.println("The "+color+" "+ typeOfVehicle+" is accelerating");
     }
     public void decelerate() {
-        System.out.println(typeOfVehicle+"Vehicle is decelerating");
+        System.out.println("The "+color +" "+typeOfVehicle+"  is decelerating");
     }
     public void start(){
-        System.out.println(typeOfVehicle+"Vehicle start");
+        System.out.println("The "+color+ " "+typeOfVehicle+" is starting");
     }
 
     public void turnOn(){

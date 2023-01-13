@@ -9,7 +9,7 @@ public class StringMethods {
 
 	public static void main(String[] args) {
 	
-		
+
 
 		int a =name.length();
 		
@@ -33,19 +33,19 @@ public class StringMethods {
 	
    isSame=name.equals(secondName);
 	System.out.println(isSame);
+
+
+		/**   // this  is called Doc comment
+		 * doc string is used for documentation , it help us explain what methods are doing :
+		 * example: see below method :
+		 * This method will add the two numbers
+		 * @param num1= first number to add
+		 * @param num2-second number to add
+		 * return sum-sum of num1 and num2
+		 */
 	
 	
-	
-	
-	
-	/**   // this  is called Doc comment
-	 * doc string is used for documentation , it help us explain what methods are doing :
-	 * example: see below method :
-	 * This method will add the two numbers 
-	 * @param num1= first number to add
-	 * @param num2-second number to add 
-	 * return sum-sum of num1 and num2
-	 */
+
 	
 	}
 	
