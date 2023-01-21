@@ -4,8 +4,8 @@ public class MyHouse {
 
 
 
-    Bedroom bedroom;
-    Kitchen kitchen;
+    Bedroom bedroom;   // Composition: describes a class that references one or more objects of other classes in its instance variables.
+    Kitchen kitchen;//this implements the  HAS A relationship  Exp: a house HAS A bedroom
 
     MyHouse (Bedroom bed, Kitchen kit){
         this.bedroom=bed;

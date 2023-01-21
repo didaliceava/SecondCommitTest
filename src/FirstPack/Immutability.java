@@ -13,7 +13,7 @@ public class Immutability {
 		String thirdStudent=new String("dida");
 	                                                  // String value does not change in the memory when a new string is created with the same value "dida"
 		                                              //but when a new object is created a new place in the memory is created for the same value "dida"
-		boolean result=name.equals(otherStudentName);
+		boolean result=name.equals(otherStudentName); //see ImmutabilityTest class
 		System.out.println(result);
 		
 		

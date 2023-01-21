@@ -62,9 +62,9 @@ switch (month){
 
     }
 
-//we need to add a method to assess the month of february which not always 28
+                                                     //we need to add a method to assess the month of february which not always 28
          public boolean isLeapYear(int year){      // a year is leap if it dividable by 4, not by a 100. OR if year is dividable by 400.
-         if ((year % 400)==0  || (year % 4==0 && year % 100!=0)){ //here i am saying if the reminder of year/400=0 , then it is leap year
+         if (  (year % 400==0) || (year % 4==0 && year % 100!=0)   ){ //here i am saying if the reminder of year/400=0 , then it is leap year
          return true;
         }
          return false;
